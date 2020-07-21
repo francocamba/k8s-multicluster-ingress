@@ -143,7 +143,7 @@ func handleLocation(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	fmt.Fprintf(w, `<!DOCTYPE html>
-		<h4>Welcome from Google Cloud datacenters at:</h4>
+		<h4>Aloha from Google Cloud AMAZING datacenters at:</h4>
 		<h1>%s</h1>
 		<h3>You are now connected to &quot;%s&quot;</h3>
 		<img src="%s" style="width: 640px; height: auto; border: 1px solid black"/>`, dc.location, computeZone, dc.flagURL)
